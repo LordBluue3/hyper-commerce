@@ -12,16 +12,17 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
+use Hyperf\DbConnection\Db;
+
 class IndexController extends AbstractController
 {
     public function index()
     {
-        $user = $this->request->input('user', 'Hyperf');
-        $method = $this->request->getMethod();
+        $result = Db::select('SELECT DATABASE() as db');
 
         return [
-            'method' => $method,
-            'message' => "Hello {$user}.",
+            'status' => 'ok',
+            'database' => $result[0]->db ? 'ok' : 'down',
         ];
     }
 }
