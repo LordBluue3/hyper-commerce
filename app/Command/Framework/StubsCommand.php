@@ -2,10 +2,14 @@
 
 /**
  * Copyright (c) 2026 Mikael Oliveira.
- * 
+ *
+ * This source code is licensed under the MIT license.
+ *
  * @author Mikael Oliveira
- * @license Proprietary
+ * @license MIT
  */
+
+declare(strict_types=1);
 
 declare(strict_types=1);
 
@@ -51,9 +55,11 @@ class StubsCommand extends HyperfCommand
 
 /**
  * Copyright (c) 2026 Mikael Oliveira.
- * 
+ *
+ * This source code is licensed under the MIT license.
+ *
  * @author Mikael Oliveira
- * @license Proprietary
+ * @license MIT
  */
 
 declare(strict_types=1);
