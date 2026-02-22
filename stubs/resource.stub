@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * Copyright (c) 2026 Mikael Oliveira.
+ * 
+ * @author Mikael Oliveira
+ * @license Proprietary
+ */
+
+declare(strict_types=1);
+
+<?php
+
+namespace %NAMESPACE%;
+
+use Hyperf\Resource\Json\JsonResource;
+
+class %CLASS% extends JsonResource
+{
+    /**
+     * Transform the resource into an array.
+     *
+     * @return array
+     */
+    public function toArray(): array
+    {
+        return parent::toArray();
+    }
+}

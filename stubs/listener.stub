@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * Copyright (c) 2026 Mikael Oliveira.
+ * 
+ * @author Mikael Oliveira
+ * @license Proprietary
+ */
+
+declare(strict_types=1);
+
+namespace %NAMESPACE%;
+
+use Hyperf\Event\Annotation\Listener;
+use Psr\Container\ContainerInterface;
+use Hyperf\Event\Contract\ListenerInterface;
+
+#[Listener]
+class %CLASS% implements ListenerInterface
+{
+    public function __construct(protected ContainerInterface $container)
+    {
+    }
+
+    public function listen(): array
+    {
+        return [
+        ];
+    }
+
+    public function process(object $event): void
+    {
+    }
+}

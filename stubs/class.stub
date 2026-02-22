@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Copyright (c) 2026 Mikael Oliveira.
+ * 
+ * @author Mikael Oliveira
+ * @license Proprietary
+ */
+
+declare(strict_types=1);
+
+namespace %NAMESPACE%;
+
+class %CLASS%
+{
+    
+}
